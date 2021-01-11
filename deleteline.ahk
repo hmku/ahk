@@ -1,3 +1,4 @@
+; credit goes to GollyJer: https://stackoverflow.com/questions/46412932/how-do-i-delete-the-current-line-using-autohotkey
 ^Backspace:: DeleteCurrentLine() ; triggered by Alt+Backspace
 
 DeleteCurrentLine() {

@@ -41,8 +41,8 @@ Return
 
 
 F1:: SetDefaultEndpoint( GetDeviceID(Devices, "Headphones (WH-1000XM3 Stereo)") )
-F2:: SetDefaultEndpoint( GetDeviceID(Devices, "Speakers (Realtek High Definition Audio)") )
-F3:: SetDefaultEndpoint( GetDeviceID(Devices, "Speakers (Jabra EVOLVE 30 II)") )
+F2:: SetDefaultEndpoint( GetDeviceID(Devices, "Speakers (Jabra EVOLVE 30 II)") )
+F3:: SetDefaultEndpoint( GetDeviceID(Devices, "Speakers (Realtek High Definition Audio)") )
 
 SetDefaultEndpoint(DeviceID)
 {

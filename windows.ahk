@@ -20,7 +20,7 @@ Dim(ByRef l, ByRef r, ByRef t, ByRef b, ByRef mgn) {
     ; figure out margin
     mgn := defmgn ; by default
     WinGetTitle, title, A
-    nomargins := ["Visual Studio", "Spotify"]
+    nomargins := ["Visual Studio", "Spotify", "Blitz", "Discord"]
     for index, element in nomargins {
         if (InStr(title, element) > 0) { ; one of the no margin programs
             mgn := 0
